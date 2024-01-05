@@ -1,0 +1,108 @@
+.form {
+    margin-top: 36px;
+    width: 360px;
+    box-sizing: border-box;
+  }
+  
+  .input-delay {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    margin-top: 8px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+  }
+  
+  .input-delay:hover {
+    border-color: #000000;
+  }
+  
+  .label-delay {
+    display: block;
+    width: 100%;
+    color: #2e2f42;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5em; /* 150% */
+    letter-spacing: 0.64px;
+  }
+  
+  fieldset {
+    margin-top: 16px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 0;
+    padding-bottom: 8px;
+    margin: 30px 0 0 0;
+    height: 78px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+  }
+  
+  fieldset:hover {
+    border-color: #000000;
+  }
+  
+  legend {
+    margin-left: 28px;
+    color: #2e2f42;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5em; /* 150% */
+    letter-spacing: 0.64px;
+  }
+  
+  .radio-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+  }
+  
+  .label-radio {
+    color: #2e2f42;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .input-radio {
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .create-btn {
+    margin-top: 24px;
+    display: flex;
+    width: 100%;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #4e75ff;
+    border: none;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5em; /* 150% */
+    letter-spacing: 0.64px;
+  }
+  
+  .create-btn:hover {
+    background-color: #6c8cff;
+  }
