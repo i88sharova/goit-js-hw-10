@@ -3,7 +3,7 @@ import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
-const myInput = document.querySelector('#datetime-picker');
+const timeInput = document.querySelector('#datetime-picker');
 const startBtn = document.querySelector('[data-start]');
 
 const timerDay = document.querySelector('[data-days]');
@@ -33,13 +33,13 @@ const options = {
     }
   },
 };
-const fp = flatpickr(myInput, options);
+const fp = flatpickr(timeInput, options);
 let userSelectedDate = null;
 
 startBtn.addEventListener('click', () => {
   const selectedTime = userSelectedDate.getTime();
-  myInput.value = '';
-  myInput.setAttribute('disabled', true);
+  timeInput.value = '';
+  timeInput.setAttribute('disabled', true);
   startBtn.setAttribute('disabled', true);
 
   const timerInterval = setInterval(() => {
